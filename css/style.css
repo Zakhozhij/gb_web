@@ -7,7 +7,7 @@ nav li {
     padding: 10px;
 }
 
-nav a {
+a {
     text-decoration: none;
 }
 
@@ -15,20 +15,52 @@ h1,
 h2 {
     text-align: center;
 }
+
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.site-paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.second-title {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
 /* Catalog */
-.catalog-items{
+.catalog-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.catalog-item{
-    display:flex;
+
+.catalog-item {
+    display: flex;
     flex-direction: column;
     width: 240px;
-    padding:10px;
+    padding: 10px;
     align-items: center;
 }
-.catalog-item-title{
+
+.catalog-item-title {
     font-weight: 600;
     text-align: center;
 }
